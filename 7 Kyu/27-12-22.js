@@ -3,7 +3,7 @@
 // For example, running this function on the array ['i', 'have','no','space'] would produce ['i','ihave','ihaveno','ihavenospace']
 
 
-// Answer
+// Answer to the question
 
 function removeSpaces(arr) {
     for (let i = 1; i < arr.length; i++) {
