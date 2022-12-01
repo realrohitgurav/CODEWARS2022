@@ -6,7 +6,7 @@
 // Solution:-
 // 1)
 
-const quarterOf = (month) => {
+const quarterOfi = (month) => {
     if (month <= 3) {
       return 1
     } else if (month <= 6) {
