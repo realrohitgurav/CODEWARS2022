@@ -20,16 +20,14 @@
 
 // Solution:-
 // 1)
-
-function returnScore(x, y) {
-    var arr = ["x:y"];
-    var newArr = Number(arr)
-    if (x > y) {
-        return 3;
-    } else if (x < y) {
-        return 0;
-    } else if ((x = y)) {
-        return 1;
-    }
-}
-returnScore(3,1)
+function points(games) {
+    let total = 0;
+    games.map(game => {
+      if (game[0] === game[2]) {
+        total += 1;
+      } else if (game[0] > game[2]) {
+        total += 3;
+      }
+    });
+    return total;
+  }
