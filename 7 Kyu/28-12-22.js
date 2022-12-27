@@ -2,7 +2,7 @@
 // Your task is to write function factorial.
 
 
-// Solution:
+// Solution / Answer:
 
 function factorial(n){
     let sum = 1;
