@@ -19,4 +19,3 @@ function highAndLow(numbers) {
     const min = Math.min(...arr);
     return `${max} ${min}`;
   }
-  
