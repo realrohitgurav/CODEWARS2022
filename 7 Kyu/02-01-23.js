@@ -30,4 +30,4 @@ function getMiddle(word) {
     }
   }
 
-  getMiddle('stringtonumber')
+  getMiddle('test')
